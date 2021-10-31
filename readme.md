@@ -33,7 +33,7 @@ Install the Airflow
     airflow webserver -p 8080
     airflow scheduler
     
-After you succed the installation, now your airflow webserver is ready, http://localhost:8080/
+After you succed the installation, now your airflow webserver is ready, you can access your airflow GUI from browser in http://localhost:8080/
 
 ## Directed Acyclic Graph (DAG) 
 Directed Acyclic Graph (DAG) is a list of task that we want to execute, 
