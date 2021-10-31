@@ -36,4 +36,6 @@ Install the Airflow
 After you succed the installation, now your airflow webserver is ready, http://localhost:8080/
 
 ## Directed Acyclic Graph (DAG) 
-DAG is a list of task that we want to execute
+Directed Acyclic Graph (DAG) is a list of task that we want to execute, 
+    
+    1. Set up the connection first from Airflow with MySql (https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html)
