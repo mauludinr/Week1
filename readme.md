@@ -17,6 +17,13 @@ Download Ubuntu in Windows
     Enable Windows Subsystem for Linux
     Go to Microsoft Store, download and then install Ubuntu
     
+Update pip
+    
+    sudo apt-get install software-properties-common
+    sudo apt-add-repository universe
+    sudo apt-get update
+    sudo apt-get install python3-pip
+    
 Install the Airflow
 
     sudo apt-get install python3-pip
