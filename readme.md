@@ -1,6 +1,11 @@
 
 # Installation
-Install the Airflow first
+Download Ubuntu
+
+    Enable Windows Subsystem for Linux
+    Install Ubuntu in Microsoft Store
+    
+Install the Airflow
 
     sudo apt-get install python3-pip
     export SLUGIFY_USES_TEXT_UNIDECODE=yes
