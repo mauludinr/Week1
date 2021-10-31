@@ -38,4 +38,4 @@ After you succed the installation, now your airflow webserver is ready, you can 
 ## Directed Acyclic Graph (DAG) 
 Directed Acyclic Graph (DAG) is a list of task that we want to execute, 
     
-1. Set up the connection first from Airflow with MySql (reference: https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html)
+1. Set up the connection first from Airflow(reference: https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html)
