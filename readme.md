@@ -11,4 +11,4 @@
 
 Airflow webserver is ready -’http://localhost:8080/’!
 
-    solution("code")
+    sudo apt-get install python3-pip
