@@ -12,7 +12,7 @@ Dataset:
     Human Resource Dataset (Database in MySQL)
 
 ## Installation Airflow 
-Download Ubuntu in Windows
+Install Ubuntu in Windows
 
     Enable Windows Subsystem for Linux
     Go to Microsoft Store, download and then install Ubuntu
