@@ -15,7 +15,7 @@ Dataset:
 Download Ubuntu in Windows
 
     Enable Windows Subsystem for Linux
-    Install Ubuntu in Microsoft Store
+    Go to Microsoft Store, download and then install Ubuntu
     
 Install the Airflow
 
