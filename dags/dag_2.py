@@ -19,5 +19,5 @@ mysql_extract = MySqlOperator(
     dag=dag,
     mysql_conn_id='airflow_mysql',
     task_id='mysql_extract_data',
-    sql=r"""use hr, select * from employees limit 10;"""
+    sql=r"""use hr; select * from employees limit 10;"""
 )
