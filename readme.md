@@ -1,5 +1,6 @@
 
 # Installation
+Install the Airflow first
 
     sudo apt-get install python3-pip
     export SLUGIFY_USES_TEXT_UNIDECODE=yes
@@ -9,5 +10,7 @@
     airflow webserver -p 8080
     airflow scheduler
     
-Airflow webserver is ready -’http://localhost:8080/’!
+After you succed the installation, now your airflow webserver is ready, http://localhost:8080/
 
+
+    
