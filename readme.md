@@ -11,7 +11,7 @@ Dataset:
 
     Human Resource Dataset (Database in MySQL)
 
-## Installation in Windows
+## Installation Airflow 
 Download Ubuntu in Windows
 
     Enable Windows Subsystem for Linux
@@ -36,5 +36,5 @@ Install the Airflow
     
 After you succed the installation, now your airflow webserver is ready, http://localhost:8080/
 
-
-    
+## Directed Acyclic Graph (DAG) 
+DAG is a list of task that we want to execute
