@@ -11,8 +11,8 @@ Dataset:
 
     Human Resource Dataset (Database in MySQL)
 
-## Installation
-Download Ubuntu
+## Installation in Windows
+Download Ubuntu in Windows
 
     Enable Windows Subsystem for Linux
     Install Ubuntu in Microsoft Store
