@@ -17,7 +17,7 @@ Download Ubuntu in Windows
     Enable Windows Subsystem for Linux
     Go to Microsoft Store, download and then install Ubuntu
     
-Update pip
+Update python pip
     
     sudo apt-get install software-properties-common
     sudo apt-add-repository universe
@@ -26,7 +26,6 @@ Update pip
     
 Install the Airflow
 
-    sudo apt-get install python3-pip
     export SLUGIFY_USES_TEXT_UNIDECODE=yes
     sudo pip3 install apache-airflow
     airflow users create — role Admin — username admin — email admin — firstname admin — lastname admin — password admin
