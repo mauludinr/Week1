@@ -1,5 +1,17 @@
 
-# Installation
+# ETL
+Tools:
+
+    Python 3.x.x
+    Apache Airflow 2.x.x
+    Database (MySQL)
+    Ubuntu (OS)
+    
+Dataset:
+
+    Human Resource Dataset (Database in MySQL)
+
+## Installation
 Download Ubuntu
 
     Enable Windows Subsystem for Linux
