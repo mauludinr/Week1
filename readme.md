@@ -40,13 +40,13 @@ Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are 
     
 1. Set up the connection from Airflow(reference: https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html)
 2. Create DAG from python script
-3. Try testing your DAG file, with this command
+3. Try testing it, with this command
        
        # command layout: command subcommand dag_id task_id date
        # example:
        airflow tasks test DAG-1 mysql_extract 2021-10-30
    
-5. If you cannnot run your dag, try changing the permission of your dag, as example my 'dag_2.py' that has been in 'dags' folder.
+5. If you cannnot run it, try changing the permission of it, as example my 'dag_2.py' that has been in 'dags' folder.
      
        cd dags
        chmod 777 dag_2.py
