@@ -14,8 +14,8 @@ Dataset:
 ## Installation Airflow 
 Install Ubuntu in Windows
 
-    Enable Windows Subsystem for Linux
-    Go to Microsoft Store, download and then install Ubuntu
+     Enable Windows Subsystem for Linux
+     Go to Microsoft Store, download and then install Ubuntu
     
 Update python pip
     
@@ -42,5 +42,5 @@ Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are 
 2. Create DAG 
 3. If you cannnot run your dag, try changing the permission of your dag, as example my 'dag_2.py' that has been in 'dags' folder.
      
-     cd dags
-     chmod 777 dag_2.py
+        cd dags
+        chmod 777 dag_2.py
