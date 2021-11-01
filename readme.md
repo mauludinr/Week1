@@ -36,7 +36,7 @@ Install the Airflow
 After you succed the installation, now your airflow webserver is ready, you can access your airflow GUI from browser in http://localhost:8080/
 
 ## Directed Acyclic Graph (DAG) 
-Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are located in 'airflow/dags' folder, if you cannot found any 'dags' folder there, try create a new folder named 'dags' inside your airflow directory, then fill that folder with your 
+Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are located in 'airflow/dags' folder, if you cannot found any 'dags' folder there, try create a new folder named 'dags' inside your airflow directory, then fill that folder with your file
     
 1. Set up the connection from Airflow(reference: https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html)
 2. Create DAG from python script
