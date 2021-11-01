@@ -18,6 +18,8 @@ dag = DAG(dag_id='DAG-2',
 mysql_extract = MySqlOperator(
     dag=dag,
     mysql_conn_id='airflow_mysql',
-    task_id='mysql_extract_data',
+    task_id='mysql_extract',
     sql=r"""use hr; select * from employees limit 10;"""
 )
+
+mysql_extract 
