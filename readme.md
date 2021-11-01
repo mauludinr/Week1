@@ -14,8 +14,8 @@ Dataset:
 ## Installation Airflow 
 Install Ubuntu in Windows
 
-     Enable Windows Subsystem for Linux
-     Go to Microsoft Store, download and then install Ubuntu
+    Enable Windows Subsystem for Linux
+    Go to Microsoft Store, download and then install Ubuntu
     
 Update python pip
     
@@ -36,11 +36,17 @@ Install the Airflow
 After you succed the installation, now your airflow webserver is ready, you can access your airflow GUI from browser in http://localhost:8080/
 
 ## Directed Acyclic Graph (DAG) 
-Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are located in 'airflow/dags' folder, if you cannot found any 'dags' folder, try create a new folder named 'dags' inside your airflow directory, then fill that folder with your dag
+Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are located in 'airflow/dags' folder, if you cannot found any 'dags' folder there, try create a new folder named 'dags' inside your airflow directory, then fill that folder with your 
     
 1. Set up the connection from Airflow(reference: https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html)
-2. Create DAG 
-3. If you cannnot run your dag, try changing the permission of your dag, as example my 'dag_2.py' that has been in 'dags' folder.
+2. Create DAG from python script
+3. Try testing your DAG file, with this command
+       
+       # command layout: command subcommand dag_id task_id date
+       # example:
+       airflow tasks test DAG-1 mysql_extract 2021-10-30
+   
+5. If you cannnot run your dag, try changing the permission of your dag, as example my 'dag_2.py' that has been in 'dags' folder.
      
-        cd dags
-        chmod 777 dag_2.py
+       cd dags
+       chmod 777 dag_2.py
