@@ -6,15 +6,14 @@ from datetime import datetime, timedelta
 
 default_args = {
     'owner': 'airflow',
-    'depends_on_past': False,
     'start_date': datetime(2021,10,30),
-    'retries': 0,
+    'retries': 1,
 }
 
 dag = DAG(dag_id='DAG-2',
           default_args=default_args,
           catchup=False,
-          schedule_interval='@once')
+          schedule_interval='@daily')
 
 mysql_extract = MySqlOperator(
     dag=dag,
