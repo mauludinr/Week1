@@ -4,12 +4,13 @@ Tools:
 
     Python 3.x.x
     Apache Airflow 2.x.x
-    Database (MySQL)
+    Database (MySQL and PostgreMySQL locally)
     Ubuntu (OS)
     
 Dataset:
 
     Human Resource Dataset (Database in MySQL)
+    Chinook Dataset (Database in PostgreSQL)
 
 ## Installation Airflow 
 Install Ubuntu in Windows
