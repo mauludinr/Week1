@@ -60,7 +60,7 @@ def load_funtion():
 
 task_1 = PythonOperator(
     dag=dag,
-    task_id='extract_data',
+    task_id='extract_function',
     python_callable=extract_function,
 )
 
