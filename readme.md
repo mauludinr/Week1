@@ -50,3 +50,7 @@ Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are 
      
        cd dags
        chmod 777 dag_2.py
+
+![ETL_1](https://user-images.githubusercontent.com/38213112/140048194-d6827659-68cf-4bc2-8456-4d6c7db4be5a.png)
+
+![ETL_2](https://user-images.githubusercontent.com/38213112/140048251-b513b67e-4ab5-445f-8673-499ca0b62503.png)
