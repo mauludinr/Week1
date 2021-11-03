@@ -49,7 +49,7 @@ def extract_function():
     writer2.save()
      
     
-def load_funtion():
+def load_function():
     ## load_data
     
     xls = pd.ExcelFile(f"{dag_path}/data.xlsx")
