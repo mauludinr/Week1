@@ -40,9 +40,9 @@ After you succed the installation, now your airflow webserver is ready, you can 
 Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are located in 'airflow/dags' folder, if you cannot found any 'dags' folder there, try create a new folder named 'dags' inside your airflow directory
     
 1. Set up the connection from Airflow(reference: https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html)
-2. Try testing dag, with this command
+2. Try testing dag with specific task, with this command:
        
-       # command layout: command subcommand dag_id task_id date
+       # command layout: airflow tasks test [DAG_ID] [TASK_ID] [EXECUTION_DATE]
        # example:
        airflow tasks test DAG-1 mysql_extract 2021-10-30
    
