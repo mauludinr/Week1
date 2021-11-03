@@ -10,7 +10,7 @@ default_args = {
     'retries': 1,
 }
 
-dag = DAG(dag_id='DAG-2',
+dag = DAG(dag_id='DAG-7',
           default_args=default_args,
           catchup=False,
           schedule_interval='@daily')
