@@ -26,7 +26,7 @@ from sqlalchemy import create_engine
 import pandas as pd
 import os
 
-connection_string = f"root:123123123@localhost:3306/chinook?charset=utf8"
+connection_string = f"root:123123123@127.0.0.1:3306/chinook?charset=utf8"
 con_engine1 = create_engine(f'mysql://{connection_string}')
 
 con_engine2 = create_engine('postgresql://postgres:123123123@localhost/postgres')
