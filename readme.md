@@ -54,3 +54,16 @@ Directed Acyclic Graph (DAG) is a list of task that we want to execute, DAG are 
 ![ETL_1](https://user-images.githubusercontent.com/38213112/140048194-d6827659-68cf-4bc2-8456-4d6c7db4be5a.png)
 
 ![ETL_2](https://user-images.githubusercontent.com/38213112/140048251-b513b67e-4ab5-445f-8673-499ca0b62503.png)
+
+### Human Resource Dataset
+Getting insight from employees that diverse across locations, regions and need to know whether the employee got enough salary based on their job or not. SQL query in (sql/hr_check_employee.sql)
+
+### Chinook Sales 
+Getting insight about what artist their customer love the most and what albums are their favorite. SQL query in (sql/dwh_sales.sql)
+
+![Data](https://user-images.githubusercontent.com/38213112/140313521-43d98930-c915-4b69-a3a6-a4eef0b93ef0.png)
+
+
+  
+
+
